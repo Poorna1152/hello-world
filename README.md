@@ -20,6 +20,12 @@ Quoted text:
 
 > Plus, you'll learn how to work with the popular `github` website to explore existing
 
+Footnote:
+
+This is footnote[^1]. Another footnote[^2].
+[^1]: My reference
+[^2]: Another reference
+
 Work with code:
 `select`
 
@@ -41,11 +47,52 @@ Pointers
   - Intended
   - intended
   
- Creating table
+ Creating table:
   First|Second|Third
-  -|-|-
+  --|--|--
   1|2|3
   4|5|6
+
+Task list:
+
+- [X] Task1
+- [] task 2
+   - [] task 2.1
+
+`#FABCDE`
+
+Alert Syntax:
+
+> [!NOTE]
+> NOTE
+
+> [!IMPORTANT]
+> IMPORTANT
+
+> [!WARNING]
+>  WARNING
+
+inline HTML:
+
+Here is a<br />line break
+
+Special content:
+
+```mermaid
+graph TD;
+   A-->B;
+   A-->C;
+```
+
+Collapsed details:
+
+<details>
+<summary>collapsed</summary>
+
+# Header
+
+This is the copy for the collapsed text.
+</details>
 
 Links:
 
@@ -57,5 +104,6 @@ Image:
 ![Link an image.](/learn/azure-devops/shared/media/mara.png)
 [Link to Microsoft Training](/training)
 
-code:
+
+
 
